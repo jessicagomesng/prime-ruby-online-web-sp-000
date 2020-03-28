@@ -25,7 +25,8 @@ def prime2?(number)
 
   else
     (2..number-1).to_a.all? do |int|
-
+      number % int != 0
+    end 
 end
 
 puts prime?(-1)
