@@ -31,4 +31,4 @@ def prime2?(number)
 end
 
 puts prime2?(-1)
-puts prime2?(1763)
+puts prime2?(997)
