@@ -19,4 +19,6 @@ def find_factors(number)
   return array_of_factors
 end
 
+def prime2?(number) 
+
 puts prime?(-1)
