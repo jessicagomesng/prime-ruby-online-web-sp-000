@@ -24,7 +24,8 @@ def prime2?(number)
     return false
 
   else
-    (2..number-1).to_a.all? do |selection|
+    (2..number-1).to_a.all? do |integer|
+
 end
 
 puts prime?(-1)
